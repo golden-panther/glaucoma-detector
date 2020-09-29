@@ -27,9 +27,10 @@ file = st.file_uploader("Please upload an image file", type=["jpg"])
 if file is None:
     st.text("You haven't uploaded a jpg image file")
 else:
-    image = Image.open(file)
-    st.image(image, use_column_width=True)
-    prediction = import_and_predict(image, model)
+#     image = Image.open(file)
+#     st.image(image, use_column_width=True)
+#     prediction = import_and_predict(image, model)
+    prediction = import_and_predict(file, model)
     pred = prediction[0][0]
     if(pred>0.5):
   	print("Healthy")
