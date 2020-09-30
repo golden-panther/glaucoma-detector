@@ -11,6 +11,6 @@ or use our ngrok instance created in google colab.......http://7431ba80922e.ngro
 
 * I provided two folders Glaucomatous and Healthy. These contain images from my test set. Use them for testing our project.
 
-Then upload a (jpg) fundus image of eye. Our model predicts whether affected by glaucoma or not.
+Then upload a (jpg) cropped fundus image of eye(if not cropped, see note). Our model predicts whether affected by glaucoma or not.
 
-Note: The image should be cropped around the optic nerve part.....not full fundus image.
+Note: The image should be cropped around the optic nerve part.(see the 'full to cropped' for reference)
