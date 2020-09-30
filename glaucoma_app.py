@@ -16,7 +16,7 @@ def import_and_predict(image_data, model):
     return prediction
 
 
-model = tf.keras.models.load_model('https://github.com/golden-panther/glaucoma-detector/blob/master/my_model2.h5')
+model = tf.keras.models.load_model('/my_model2.h5')
 
 st.write("""
          # ***Glaucoma detector***
