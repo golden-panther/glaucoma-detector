@@ -9,6 +9,8 @@ To run our glaucoma detector on your machine by cloning
 
 or use our ngrok instance created in google colab.......http://7431ba80922e.ngrok.io/ (will not always work)
 
+* I provided two folders Glaucomatous and Healthy. These contain images from my test set. Use them for testing our project.
+
 Then upload a (jpg) fundus image of eye. Our model predicts whether affected by glaucoma or not.
 
 Note: The image should be cropped around the optic nerve part.....not full fundus image.
