@@ -78,3 +78,5 @@ my_callbacks = [
     ]
 
 model.fit(training_set, epochs=200, validation_data = test_set, callbacks=my_callbacks)
+
+model.save('my_model2.h5')
