@@ -1,17 +1,17 @@
 # Glaucoma detector
 
-## ** Details **
+## Details
 ## Part 1
 * We have collected all the publicly available labelled(glaucoma or normal) fundus images of eye from web. 
 * Some are already cropped and some are full. So, we cropped the full fundus images too. 
 * We bulk renamed all the images in the two classes using https://www.bulkrenameutility.co.uk/
 * Then we bulk converted all the images to jpg using https://www.xnview.com/en/xnconvert/
 * Number of images in both classes are not equal. They are highly imbalanced. Then we balanced by removing extra images.
-* We got 1,115 images of each class totalling 2,230. And we divided them randomly into train, val and test sets in the ratio 8:1:1.
+* We got 1,115 images of each class totalling 2,230. And we divided them randomly into train, val and test sets in the ratio 8:1:1 using https://pypi.org/project/split-folders/
 ## Part 2
 * We uploaded all these images to my google drive and trained on various CNN architectures from simple to advanced.
-* We did augmentation of data to cut down high variance. But there is some bias due to low and bad data.
-* We used keras(2.4.3) and tesorflow(2.3.0) on top of python(3.6.9). (You can see the code in train.ipynb)
+* We did augmentation of data using keras ImageGenerator to cut down high variance. But there is some bias due to low and bad data.
+* We used keras(2.4.3) and tesorflow(2.3.0) on top of python(3.6.9). (You can see the code in train.py)
 * We trained on train set and validated on validation set after each epoch. Finally tested the test set.
 * It gave 93 percent AUC score, some good accuracy, precision and recall values. We saved the model file(h5) for further usage.
 * Then we built a simple streamlit app for hosting on web.
