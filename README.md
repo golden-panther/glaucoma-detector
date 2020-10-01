@@ -17,7 +17,7 @@
 * Then we built a simple streamlit app for hosting on web.
 
 
-# ** Usage: **
+# >> Usage: 
 
 Always remember that tensorflow does not support python 3.8. It supports upto version 3.7 only.
 ### Install all the required packages from requirements.txt
