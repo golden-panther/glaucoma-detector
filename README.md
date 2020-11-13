@@ -1,5 +1,7 @@
 # Glaucoma detector
 
+Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py
+
 ## Details
 ## Part 1
 * We have collected all the publicly available labelled(glaucoma or normal) fundus images of eye from web.
@@ -22,6 +24,8 @@
 Always remember that tensorflow does not support python 3.8. It supports upto version 3.7 only.
 ### Install all the required packages from requirements.txt
 
+To use our project - go to this link https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py
+(or)
 To run our glaucoma detector on your machine by cloning this repository,
 * Type "streamlit run glaucoma_app.py" in your terminal or cmd.
 * The web app opens up in a local host. Then you can use it for classifying. That's it!
