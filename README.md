@@ -35,4 +35,6 @@ To run our glaucoma detector on your machine by cloning this repository,
 * Upload a (jpg) cropped fundus image of eye(if not cropped, see note). Our model predicts whether affected by glaucoma or not.
 * I provided two folders Glaucomatous and Healthy. These contain images from my test set. Use these if you don't have any fundus images with you.
 
-Note: The image should be cropped around the optic nerve part.(see the **full to cropped** image in the repo for reference)
+Note: The image should be cropped around the optic nerve part.(see the below **full to cropped** image for reference)
+
+![alt text] (https://github.com/golden-panther/glaucoma-detector/blob/master/full%20to%20cropped.jpg)
