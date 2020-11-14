@@ -2,6 +2,15 @@
 
 Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py
 
+## Web Page
+![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/lit.jpg)
+
+## Healthy Eye
+![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/healthy%20lit.jpg)
+
+## Glaucomatous Eye
+![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/glaucoma%20lit.jpg)
+
 ## Details
 ## Part 1
 * We have collected all the publicly available labelled(glaucoma or normal) fundus images of eye from web.
