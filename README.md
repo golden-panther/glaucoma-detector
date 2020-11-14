@@ -37,4 +37,4 @@ To run our glaucoma detector on your machine by cloning this repository,
 
 Note: The image should be cropped around the optic nerve part.(see the below **full to cropped** image for reference)
 
-![alt text] (https://github.com/golden-panther/glaucoma-detector/blob/master/full%20to%20cropped.jpg)
+![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/full%20to%20cropped.jpg)
