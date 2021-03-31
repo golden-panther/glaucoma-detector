@@ -1,4 +1,4 @@
-# Glaucoma detector
+# Glaucoma detector [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py)
 
 Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py
 
