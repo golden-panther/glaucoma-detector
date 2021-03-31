@@ -15,12 +15,8 @@ def import_and_predict(image_data, model):
     prediction = model.predict(img_reshape)
     return prediction
 
-@st.cache
-def load_model():
-    model = tf.keras.models.load_model('my_model2.h5')
-    return model
 
-model = load_model()
+model = tf.keras.models.load_model('my_model2.h5')
 
 st.write("""
          # ***Glaucoma detector***
