@@ -5,6 +5,7 @@ import numpy as np
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
+@st.cache(suppress_st_warning=True)
 def import_and_predict(image_data, model):
     image = ImageOps.fit(image_data, (100,100),Image.ANTIALIAS)
     image = image.convert('RGB')
@@ -15,9 +16,7 @@ def import_and_predict(image_data, model):
     prediction = model.predict(img_reshape)
     return prediction
 
-@st.cache(suppress_st_warning=True)
-def load():
-    model = tf.keras.models.load_model('my_model2.h5')
+model = tf.keras.models.load_model('my_model2.h5')
 
 st.write("""
          # ***Glaucoma detector***
@@ -32,7 +31,6 @@ if file is None:
     st.text("You haven't uploaded a jpg image file")
 else:
     imageI = Image.open(file)
-    load()
     prediction = import_and_predict(imageI, model)
     pred = prediction[0][0]
     if(pred > 0.5):
