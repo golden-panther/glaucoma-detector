@@ -2,7 +2,8 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
-
+import keras.backend.tensorflow_backend as tb
+tb._SYMBOLIC_SCOPE.value = True
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
 @st.cache(suppress_st_warning=True)
