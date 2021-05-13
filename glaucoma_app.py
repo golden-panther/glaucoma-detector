@@ -2,11 +2,10 @@ import streamlit as st
 import tensorflow as tf
 from PIL import Image, ImageOps
 import numpy as np
-# import keras.backend.tensorflow_backend as tb
-# tb._SYMBOLIC_SCOPE.value = True
+
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-@st.cache(suppress_st_warning=True,allow_output_mutation=True)
+# @st.cache(suppress_st_warning=True,allow_output_mutation=True)
 def import_and_predict(image_data, model):
     image = ImageOps.fit(image_data, (100,100),Image.ANTIALIAS)
     image = image.convert('RGB')
