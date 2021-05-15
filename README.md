@@ -42,7 +42,7 @@ To run this app
 
 ```
 pip install -r requirements.txt
-streamlit run https://raw.githubusercontent.com/tvst/deepdream/master/streamlit_app.py
+streamlit run https://raw.githubusercontent.com/golden-panther/glaucoma-detector/master/glaucoma_app.py
 ```
 
 (or)
