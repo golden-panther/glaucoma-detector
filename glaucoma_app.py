@@ -38,6 +38,7 @@ else:
                  ## **Prediction:** You eye is Healthy. Great!!
                  """
                  )
+        st.balloons()
     else:
         st.write("""
                  ## **Prediction:** You are affected by Glaucoma. Please consult an ophthalmologist as soon as possible.
