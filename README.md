@@ -24,7 +24,7 @@ Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.p
 ## Part 2
 * We uploaded all these images to my google drive and trained on various CNN architectures from simple to advanced.
 * We did augmentation of data using keras ImageGenerator to cut down high variance. But there is some bias due to low and bad data.
-* We used keras(2.4.3) and tesorflow(2.3.0) on top of python(3.6.9). (You can see the code in train.py)
+* We used keras (2.4.3) and tesorflow (2.3.0) on top of python (3.6.9). (You can see the code in train.py)
 * We trained on train set and validated on validation set after each epoch. Finally tested the test set.
 * It gave 93 percent AUC score, some good accuracy, precision and recall values. We saved the model file(h5) for further usage.
 * Then we built a simple streamlit app for hosting on web.
