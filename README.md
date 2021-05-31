@@ -48,7 +48,11 @@ streamlit run https://raw.githubusercontent.com/golden-panther/glaucoma-detector
 (or)
 
 To run our glaucoma detector on your machine by cloning this repository,
-* Type "streamlit run glaucoma_app.py" in your terminal or cmd.
+* Type the following in your terminal or cmd:
+```
+pip install -r requirements.txt
+streamlit run glaucoma_app.py
+```
 * The web app opens up in a local host. Then you can use it for classifying. That's it!
 
 * Upload a (jpg) cropped fundus image of eye(if not cropped, see note). Our model predicts whether affected by glaucoma or not.
