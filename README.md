@@ -13,7 +13,7 @@ Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.p
 ## Glaucomatous Eye
 ![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/glaucoma%20lit.jpg)
 
-## Details
+# >> Details
 ## Part 1
 * We have collected all the publicly available labelled(glaucoma or normal) fundus images of eye from web.
 * Some are already cropped and some are full. So, we cropped the full fundus images too. 
