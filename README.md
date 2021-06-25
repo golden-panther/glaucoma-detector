@@ -2,7 +2,7 @@
 
 Link: https://share.streamlit.io/golden-panther/glaucoma-detector/glaucoma_app.py
 
-(Above link is temporarily down as it is a free hosting service and cache related issues, I am working on fixing it. Untill then use this project by downloading and running it on your local PC)
+(If app at above link doesn't work then use this project by downloading and running it on your local PC)
 
 ## Web Page
 ![alt text](https://github.com/golden-panther/glaucoma-detector/blob/master/lit.jpg)
